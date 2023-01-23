@@ -52,10 +52,7 @@ h2 ~ p {
 
   .header-nav a {
     color: #fff;
-    /* font-size: 0.8rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase; */
+
 
   }
 
@@ -79,8 +76,8 @@ h2 ~ p {
     color: turquoise ;
   }
 
-  .header-nav a:hover,
-  .header-nav a:active {
+  .nav-links a:hover,
+  .nav-links a:active {
     color: #ed6e2f;
 
   }
@@ -126,6 +123,11 @@ h2 ~ p {
 
   .footer-nav a {
     color:#ccc;
+  }
+
+  .footer-nav li {
+   display: inline-block;
+   margin: 2em 1em 0;
   }
   /* HERO STYLES */
   .full-hero {
