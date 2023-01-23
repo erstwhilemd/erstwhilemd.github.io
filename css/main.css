@@ -79,9 +79,11 @@ h2 ~ p {
     color: turquoise ;
   }
 
-  .header-nav a:hover,
-  .header-nav a:active {
+  .nav-links a:hover,
+  .nav-links a:active {
     color: #ed6e2f;
+    display: inline-block;
+    margin: 1em 2em 0;
 
   }
  .header-logo {
