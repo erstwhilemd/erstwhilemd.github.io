@@ -82,8 +82,7 @@ h2 ~ p {
   .nav-links a:hover,
   .nav-links a:active {
     color: #ed6e2f;
-    display: inline-block;
-    margin: 1em 2em 0;
+ 
 
   }
  .header-logo {
@@ -128,6 +127,11 @@ h2 ~ p {
 
   .footer-nav a {
     color:#ccc;
+  }
+
+  .footer-nav li {
+    display: inline-block;
+    margin: 2em 1em 0;
   }
   /* HERO STYLES */
   .full-hero {
